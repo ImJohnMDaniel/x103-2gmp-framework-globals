@@ -1,11 +1,24 @@
 {
-  "packageDirectories": [
-    {
-      "path": "sfdx-source/framework-globals",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "sfdx-source/framework-globals",
+            "default": true,
+            "package": "framework-globals",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+              {
+                "package": "framework@0.1.0-1"
+              }
+            ]
+        }
+    ],
+    "namespace": "x103",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "47.0",
+    "packageAliases": {
+        "framework-globals": "0Ho1T000000XZAgSAO",
+        "framework": "0Ho1T000000XZAbSAO",
+        "framework@0.1.0-1": "04t1T000000V9beQAC"
     }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "47.0"
 }
